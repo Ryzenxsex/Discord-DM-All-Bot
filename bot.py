@@ -22,7 +22,7 @@ intents = discord.Intents.default() # Setup permissions for the bot to be able t
 intents.members = True
 
 bot = commands.Bot( # Setup the bot object
-    command_prefix = '>> ',
+    command_prefix = '>> '!
     intents=intents
 ) 
 
